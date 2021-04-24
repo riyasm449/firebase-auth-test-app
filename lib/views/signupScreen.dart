@@ -180,11 +180,11 @@ class _SignUpPageState extends State<SignUpPage> {
       child: InkWell(
         onTap: () async {
           UserModel user = UserModel(
-            name: 'riyas', //name.text.trim(),
-            mobile_no: '9361144746', //phone.text.trim(),
-            email: 'riyas@gmail.com',
-            password: 'password', //password.text.trim(),
-            referal_id: null, //referralCode.text.trim(),
+            name: name.text.trim(),
+            mobile_no: phone.text.trim(),
+            email: mail.text.trim(),
+            password: password.text.trim(),
+            referal_id: referralCode.text.trim(),
           );
           try {
             await register(UserModel().toJson(user));
@@ -209,8 +209,6 @@ class _SignUpPageState extends State<SignUpPage> {
   }
 
   Future<void> register(Map<String, dynamic> user) async {
-    print('>>>>>>>>>>>>>>>>> user: $user <<<<<<<<<<<<<<<<<<<<');
-
     /// checks whether the mail is empty ///
     if (name.text == '') {
       showAlertDialog(context, title: 'Incomplete', content: 'Name is Empty');
