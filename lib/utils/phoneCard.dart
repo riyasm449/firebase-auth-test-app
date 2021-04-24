@@ -3,8 +3,10 @@ import 'package:flutter/services.dart';
 
 class PhoneCard extends StatefulWidget {
   final TextEditingController controller;
+  final bool enabled;
 
-  const PhoneCard({Key key, @required this.controller}) : super(key: key);
+  const PhoneCard({Key key, @required this.controller, this.enabled})
+      : super(key: key);
 
   @override
   _PhoneCardState createState() => _PhoneCardState();
@@ -50,6 +52,7 @@ class _PhoneCardState extends State<PhoneCard> {
                     fillColor: Colors.white,
                     filled: true,
                     border: InputBorder.none,
+                    enabled: widget.enabled ?? true,
                     hintText: 'Phone Number',
                     hintStyle: TextStyle(fontSize: 16)),
               ),

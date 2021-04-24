@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67021584807",
+    "project_id": "btw-test-project",
+    "storage_bucket": "btw-test-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67021584807:android:61571255478887b14d5e82",
+        "android_client_info": {
+          "package_name": "com.riyasapps.btw_test_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67021584807-ca7bi1d85iqqn64jhiosscjpous7hnrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABv-L97HAhT9RLBJ5_OG_cJsmljqy9IKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67021584807-ca7bi1d85iqqn64jhiosscjpous7hnrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
