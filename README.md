@@ -4,13 +4,19 @@ A new Flutter test application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+It is an test application created to learn the followings.
+  * Flutter materials,
+  * Blocs and Streams,
+  * Firebase Core,
+  * Firebase Authentication, 
+  * Firebase Firestore storage, 
 
-A few resources to get you started if this is your first Flutter project:
+## Firebase Authentication
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  Documentation: https://firebase.flutter.dev/docs/auth
+  Package: https://pub.dev/packages/firebase_auth
+  
+## Firebase Firestore Storage
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  Documentation: https://firebase.flutter.dev/docs/firestore
+  Package: https://pub.dev/packages/cloud_firestore
