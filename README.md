@@ -1,6 +1,6 @@
-# btw_test_app
+# Firebase Auth test application.
 
-A new Flutter test application.
+A new Flutter test application with firebase auth.
 
 ## Getting Started
 
